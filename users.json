@@ -1,24 +1,17 @@
+
 {
-    "checkin": {
+    "123456789": {
+        "msisdn": "213712345678",
+        "username": "example_user",
+        "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "last_applied": "2024-01-20T14:30:00"
     },
-    "withd": {
-    },
-    "DailyQuiz": {
-    },
-    "id": {
-    },
-    "total": 0,
-    "referred": {
-    },
-    "referby": {
-    },
-    "balance": {
-    },
-    "wallet": {
-    },
-    "refer": {
-    },
-    "totalwith": 0
+    "987654321": {
+        "msisdn": "213798765432",
+        "username": "another_user",
+        "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "last_applied": "2024-01-21T09:15:00"
+    }
 }
-
-

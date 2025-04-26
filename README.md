@@ -1,46 +1,32 @@
+# Djezzy Bot
 
-# Djezzy Gift Bot
-
-A Telegram bot that helps Djezzy users claim their daily internet gifts automatically.
+A Telegram bot for activating Djezzy internet gifts.
 
 ## Features
 
-- Automatic OTP verification system
-- Daily gift claiming functionality
-- Phone number validation
-- Secure token management
-- User data persistence
-
-## Requirements
-
-- Python 3.11+
-- Required packages:
-  - telebot
-  - requests
-  - urllib3
-
-## Setup
-
-1. Clone the repository
-2. Update the `TOKEN` variable in `main.py` with your Telegram bot token
-3. Run the bot using: `python main.py`
+- OTP verification for Djezzy numbers
+- Automatic gift activation
+- User-friendly interface
+- Secure phone number handling
 
 ## Usage
 
 1. Start the bot by sending `/start`
-2. Click "▶️ إرسال الرقم" button
-3. Enter your Djezzy phone number (starting with 07)
+2. Click "Send Phone Number" button
+3. Enter your Djezzy number (07xxxxxxxx)
 4. Enter the OTP code received via SMS
-5. Click "🎁 خذ الهدية" to claim your daily gift
+5. Click "Activate Gift" to receive your internet package
 
-## Security
+## Developer
 
-- Phone numbers are partially hidden in messages
-- User data is stored locally in `djezzy_data.json`
-- One gift claim per user per 24 hours
+Created by MAZIGH
 
-## Notes
+## Requirements
 
-- The bot requires a valid Djezzy number
-- Gift claims are limited to once per 24 hours
-- Internet connection is required for API calls
+- Python 3.11+
+- pyTelegramBotAPI
+- requests
+
+## License
+
+All rights reserved. Modification without permission is not allowed.

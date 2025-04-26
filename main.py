@@ -3,8 +3,24 @@ import json
 import time
 import telebot
 import re
+import os
+from datetime import datetime, timedelta
 
 # إعدادات البوت
+
+def load_user_data():
+    try:
+        with open('users.json', 'r') as f:
+            return json.load(f)
+    except:
+        return {"users": {}}
+
+def save_user_data(data):
+    with open('users.json', 'w') as f:
+        json.dump(data, f, indent=2)
+
+def hide_phone_number(number):
+    return f"{number[:5]}****{number[-2:]}"
 TOKEN = '8016863611:AAG3CoXHIsw_XfwmSN-Z8pXp_D1IK5YDAZ4'
 bot = telebot.TeleBot(TOKEN)
 

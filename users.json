@@ -1,4 +1,9 @@
 
 {
-  "users": {}
+    "example_chat_id": {
+        "msisdn": "2130xxxxxxxx",
+        "username": "example_user",
+        "access_token": "xxxxx",
+        "refresh_token": "xxxxx"
+    }
 }
